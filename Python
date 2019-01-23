@@ -1,5 +1,5 @@
 #Function - Skyline
-myqfunc('Assasination')
+myfunc('Assasination')
 def myfunc(word):
  new_word=""
  for index, item in enumerate (word):

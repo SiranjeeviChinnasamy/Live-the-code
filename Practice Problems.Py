@@ -5,3 +5,10 @@ for i in range(1500,2701):
  if i%7==0 and i%5==0:
   List.append(i)
 print(List)
+
+#2. Write a Python program to convert temperatures to and from celsius, fahrenheit. Go to the editor
+#[ Formula : c/5 = f-32/9 [ where c = temperature in celsius and f = temperature in fahrenheit ] 
+#Code
+Temp =  int(input("Enter Temperature in Celcius : \n"))
+Fahrenheit = (9/5)*Temp+32
+print("{0} F".format(Fahrenheit))

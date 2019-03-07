@@ -1,0 +1,11 @@
+my_list = [1,2,3,4,5,6,7,8,9,10]
+odd_list = []
+even_list = []
+for i in my_list:
+  if i%2==0:
+    even_list.append(i)
+  elif i%2 != 0:
+    odd_list.append(i)
+print("odd_list is{0} ".format(odd_list) )   
+print(f"even_list is {even_list}")
+

@@ -1,0 +1,12 @@
+import smtplib
+server = smtplib.SMTP('smtp.gmail.com', 587)
+
+#Next, log in to the server
+server.login("siranjeevi1794", "password")
+
+#Send the mail
+msg = "Helo world"
+
+ # The /n separates the message from the headers
+ 
+server.sendmail("siranjeevi1794@gmail.com", "siranjeevitdq1629@gmail.com", msg)
